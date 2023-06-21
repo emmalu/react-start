@@ -11,8 +11,13 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "vite",
+    "mapbox",
+    "maplibre"
+  ],
+  "author": "EP",
   "license": "ISC",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
@@ -25,6 +30,8 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "mapbox-gl": "^2.15.0",
+    "maplibre-gl": "^3.1.0",
     "pnpm": "^8.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

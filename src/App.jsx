@@ -1,14 +1,17 @@
 import { createRoot } from "react-dom/client";
+import "mapbox-gl/dist/mapbox-gl.css";
+import "./style.css";
 
-import Item from "./components/Item";
+import Map from "./components/Map-ML";
 
 const App = () => {
   return (
-    <div>
-      <h1>React App</h1>
-      <Item name="Item 1" type="A Type" />
-      <Item name="Item 2" type="B Type" />
-    </div>
+    <>
+      <div className="right">
+        <h1>Dev Map</h1>
+      </div>
+      <Map />
+    </>
   );
 };
 
